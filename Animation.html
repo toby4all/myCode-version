@@ -1,0 +1,58 @@
+<html lang="en">
+  <head> 
+    <style>
+        @keyframes divStyle { from{
+            background-color: blanchedalmond;
+        }to{
+            background-color: red;
+        }
+
+        
+            
+        }
+
+        @keyframes percentageStyle {
+            0%{
+                background-color: blanchedalmond;
+            }
+            25%{background-color: aqua;
+              width: 250px;}
+            50%{background-color: #ff11a0;
+            width: 100px;
+             /* transform: rotate(100deg); */
+            }
+            75%{background-color: rgb(75, 140, 110);
+            width: 200px;}
+            100%{
+                background-color: blueviolet;
+                width: 150px;
+            }
+
+        }
+        .Animations{
+            width: 150px;
+            height: 150px;
+            background-color: blanchedalmond;
+            animation-name: percentageStyle;
+            animation-duration: 3s;
+            transition-delay: 3s;
+            animation-delay: 5s;
+            animation-iteration-count: 3;
+        }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>Animations in css</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quos eum
+        id voluptatibus porro consectetur alias laboriosam vero, voluptates
+        sapiente magnam ipsam. Dolore voluptates, eum id temporibus similique
+        praesentium nobis repellendus quidem suscipit harum! Adipisci dolor
+        nostrum quis eaque ea.
+      </p>
+      <div class="Animations"></div>
+    </div>
+    
+  </body>
+</html>
